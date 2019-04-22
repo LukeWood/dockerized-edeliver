@@ -51,4 +51,4 @@ First you will need to tag the image.
 ```
 
 Then when you go to create your VM make sure to select your dockerized-edeliver image.
-<img src="img/gcp-sample.png" width="50%" height="50%">
+<center><img src="img/gcp-sample.png" width="50%" height="50%"></center>
