@@ -1,5 +1,6 @@
 from ubuntu:18.04
 WORKDIR /tmp
+
 RUN  apt-get update \
   && apt-get install -y wget
 run apt-get install gnupg2 -y
@@ -9,3 +10,10 @@ run apt-get update
 run apt-get install esl-erlang -y
 run apt-get install elixir -y
 run mix local.hex
+
+copy assets /
+
+USER root
+run mkdir ~/.ssh
+run cat /tmp/id_rsa >> ~/.ssh/authorized_keys
+run rm /tmp/id_rsa
