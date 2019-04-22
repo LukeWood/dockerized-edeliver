@@ -1,7 +1,4 @@
 # Dockerized Edeliver
-![docker](img/docker.png | width=50%)
-![elixir](img/elixir.png | width=50%)
-
 Some cloud providers allow a docker image to be used as the base for a VM.  Dockerized [edeliver](https://github.com/edeliver/edeliver) capitalizes on that by simplifying the set up of edeliver on your servers.  This is done by building a local docker image that is edeliver enabled and deploying it to all of your VMs as their base image.
 
 Here are the steps to use this Docker image to set up edeliver on your server.
