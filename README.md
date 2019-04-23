@@ -41,7 +41,7 @@ Next run the [docker](https://www.docker.com/) build command and tag the image h
 Now your image is ready to go and can be deployed to a cloud provider.
 If there is an option of how the Docker image is run make sure to specify the `--network host` flag.
 
-### gcr.io
+### Google Cloud
 To use the image on Google Cloud you should push the docker image to gcr.io.
 
 First you will need to tag the image.
